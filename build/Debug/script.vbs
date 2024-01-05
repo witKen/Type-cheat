@@ -1,0 +1,1033 @@
+Set wshShell = WScript.CreateObject("WScript.Shell")
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{m}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{f}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{d}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{c}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{v}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{c}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{u}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{u}"
+WScript.Sleep 2
+wshShell.SendKeys "{p}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{u}"
+WScript.Sleep 2
+wshShell.SendKeys "{p}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{y}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{f}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{m}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{b}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{u}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{b}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{c}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{v}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{v}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{d}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{v}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{c}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{m}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{b}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{p}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{d}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{b}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{u}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{v}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{d}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{m}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{c}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{b}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{d}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{b}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{d}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{u}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{d}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{f}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{c}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{u}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{v}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{y}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{c}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{y}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{m}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{f}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{m}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{k}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{d}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{m}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{g}"
+WScript.Sleep 2
+wshShell.SendKeys "{a}"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{c}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{u}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{n}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{i}"
+WScript.Sleep 2
+wshShell.SendKeys "{f}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{b}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{f}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{w}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{l}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{v}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{r}"
+WScript.Sleep 2
+wshShell.SendKeys "{y}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{o}"
+WScript.Sleep 2
+wshShell.SendKeys "{m}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{t}"
+WScript.Sleep 2
+wshShell.SendKeys "{h}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{s}"
+WScript.Sleep 2
+wshShell.SendKeys "{e}"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
+wshShell.SendKeys "{ }"
+WScript.Sleep 2
