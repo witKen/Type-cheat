@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Type Cheat Instructions</title>
-</head>
 <body>
   <h1>Type Cheat</h1>
   <h2>For Monkeytype:</h2>
