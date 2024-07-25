@@ -1,4 +1,4 @@
-### Note: This project was made specifically for pranking your friends. I wouldn't recommend using this cheats for any game or competition. It could get your account banned or ruin the experience for you or others.
+### Note: This project was made specifically for pranking your friends. I wouldn't recommend using this cheat for any game or any competition. It could get your account banned or ruin the experience for you or others.
 ### Warning: Please use with caution!!
 <body>
   <h1>Type Cheat</h1>
