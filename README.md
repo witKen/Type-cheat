@@ -1,4 +1,4 @@
-###Note: This project was made for fun and was not meant for real life cheating. Please use responsiblely:) 
+###Note: This project was made for fun. I wouldn't recommend using this cheats for any game. It could get your account banned or ruin the experience for you.
 <body>
   <h1>Type Cheat</h1>
   <h2>For Monkeytype:</h2>
