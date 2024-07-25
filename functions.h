@@ -66,15 +66,20 @@ void runOrDiscardScritp(string texts, string cheatType, float wpm){
 
     script = "Set wshShell = WScript.CreateObject(\"WScript.Shell\")\n";
 
-    cout<<wpm<<endl;
-
     if(wpm < 5){
         wpm = 5;
     }
 
+    int con_wpm = int(wpm);
+
     for (size_t i = 0; i < texts.length(); i++) {
         script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
-        script = script + "WScript.Sleep " + to_string(wpm) + "\n";
+        if (cheatType == "1"){   
+            int random = (rand() % (con_wpm + 100 - con_wpm + 1)) + con_wpm;
+            script = script + "WScript.Sleep " + to_string(random) + "\n";
+        }else{
+            script = script + "WScript.Sleep " + to_string(con_wpm) + "\n";
+        }
     }
 
     cout << "1.Run\n2.Discard\nYour choice: ";

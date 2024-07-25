@@ -3,6 +3,7 @@
 #include <fstream>
 #include <thread>
 #include <cmath>
+#include <cstdlib>
 #include "functions.h"
 #include "cheat.h"
 using namespace std;
@@ -51,8 +52,8 @@ int main() {
                     wpm_float = stof(wpm);
                     if (wpm_float < 0) {
                         wpm_float = abs(wpm_float);
-                    }else if(wpm_float > 500){
-                        wpm_float = abs(500);
+                    }else if(wpm_float > 600){
+                        wpm_float = abs(600);
                     }
                     cout << "WPM: " << wpm_float << endl;
                     break;
