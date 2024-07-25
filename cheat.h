@@ -1,28 +1,29 @@
 #include <string>
 using namespace std;
 
-int typeracerCheat(){
+int typeracerCheat(float wpm){
     string texts;
 
-    texts = getUserInput();
+    texts = getUserInput("1");
     if (texts.empty()) {
         return 0;
     }
-    runOrDiscardScritp(texts);
-    return 1;
+
+    runOrDiscardScritp(texts, "1", wpm);
+    return 0;
 
 }
 
-int monkeytypeCheat(){
+int monkeytypeCheat(float wpm){
     string texts, result;
     
-    texts = getUserInput();
+    texts = getUserInput("2");
 
     if(texts.empty()){
         return 0;
     }
 
     result = extractLetters(texts);
-    runOrDiscardScritp(result);
-    return 1;
+    runOrDiscardScritp(result, "2", wpm);
+    return 0;
 }
