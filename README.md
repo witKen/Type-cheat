@@ -22,7 +22,6 @@
     <li>Choose "Inspect" from the context menu.</li>
     <li>Copy all the words.</li>
     <li>Paste them into the console.</li>
-    <li>Run the code.</li>
   </ol>
 </body>
 </html>
