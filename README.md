@@ -9,7 +9,6 @@
     <li>Choose "Inspect" from the context menu.</li>
     <li>Select all the words' class element and copy it.</li>
     <li>Paste the copied texts to the input.txt file.</li>
-    <li>Run the code.</li>
   </ol>
   
   <h2>For Typeracer:</h2>
