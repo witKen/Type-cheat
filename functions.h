@@ -72,12 +72,32 @@ void runOrDiscardScritp(string texts, string cheatType, float wpm){
 
     int con_wpm = int(wpm);
 
+    int randCounter = (rand() % (50 - 1)) + 50;
+    int count = 0;
+
     for (size_t i = 0; i < texts.length(); i++) {
-        script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
         if (cheatType == "1"){   
             int random = (rand() % (con_wpm + 100 - con_wpm + 1)) + con_wpm;
-            script = script + "WScript.Sleep " + to_string(random) + "\n";
+            if (randCounter == count){
+                size_t tmp = i;
+                if(i > 2){
+                    tmp = i - 2;
+                }
+                script = script + "wshShell.SendKeys \"{" + texts[tmp] + "}\"\n";
+                script = script + "WScript.Sleep " + to_string(random) + "\n";
+                script = script + "wshShell.SendKeys \"{BACKSPACE}\"\n";
+                script = script + "WScript.Sleep " + to_string(random) + "\n";
+                script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
+                script = script + "WScript.Sleep " + to_string(random) + "\n";
+                randCounter = (rand() % (200 - 0 + 1)) + 200;
+                count = 0;
+            }else{
+                script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
+                script = script + "WScript.Sleep " + to_string(random) + "\n";
+                count ++;
+            }
         }else{
+            script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
             script = script + "WScript.Sleep " + to_string(con_wpm) + "\n";
         }
     }
