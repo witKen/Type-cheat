@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Sokke/OneDrive/Documents/c++/monkeytype cheat",
-      "program": "c:/Users/Sokke/OneDrive/Documents/c++/monkeytype cheat/build/Debug/outDebug",
+      "cwd": "c:/Users/Sokke/OneDrive/Documents/c++/Typing-cheat",
+      "program": "c:/Users/Sokke/OneDrive/Documents/c++/Typing-cheat/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

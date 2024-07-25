@@ -36,15 +36,15 @@ string extractLetters(string texts) {
     return result;
 }
 
-string getUserInput(){
-    string choice, texts;
-    cout << "(Enter to return)\n1.Enter input from console\n2.Get input from file\nYour choice: ";
-    getline(cin, choice);
+string getUserInput(string cheatType){
+    string texts;
+    // cout << "(Enter to return)\n1.Enter input from console\n2.Get input from file\nYour choice: ";
+    // getline(cin, choice);
 
-    if (choice == "1") {
+    if (cheatType == "1") {
         cout << "Input: ";
         getline(cin, texts);
-    } else if (choice == "2") {
+    } else if (cheatType == "2") {
         string filePath = "input.txt";
         ifstream inputFile(filePath);
         if (!inputFile) {
@@ -58,12 +58,23 @@ string getUserInput(){
     return texts;
 }
 
-void runOrDiscardScritp(string texts){
+void runOrDiscardScritp(string texts, string cheatType, float wpm){
     string script, choice;
+
+    wpm = (60 * 1000) / (wpm * static_cast<float>(texts.length()));
+    wpm = round(wpm);
+
     script = "Set wshShell = WScript.CreateObject(\"WScript.Shell\")\n";
+
+    cout<<wpm<<endl;
+
+    if(wpm < 5){
+        wpm = 5;
+    }
+
     for (size_t i = 0; i < texts.length(); i++) {
         script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
-        script += "WScript.Sleep 5\n";
+        script = script + "WScript.Sleep " + to_string(wpm) + "\n";
     }
 
     cout << "1.Run\n2.Discard\nYour choice: ";
