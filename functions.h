@@ -63,7 +63,7 @@ void runOrDiscardScritp(string texts){
     script = "Set wshShell = WScript.CreateObject(\"WScript.Shell\")\n";
     for (size_t i = 0; i < texts.length(); i++) {
         script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
-        script += "WScript.Sleep 2\n";
+        script += "WScript.Sleep 5\n";
     }
 
     cout << "1.Run\n2.Discard\nYour choice: ";
