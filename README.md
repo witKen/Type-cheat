@@ -1,3 +1,4 @@
+###Note: This project was made for fun and was not meant for real life cheating. Please use responsiblely:) 
 <body>
   <h1>Type Cheat</h1>
   <h2>For Monkeytype:</h2>
