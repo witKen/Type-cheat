@@ -26,5 +26,5 @@
   </ol>
 </body>
 </html>
-[![Tutorial Link](https://img.youtube.com/vi/_0cAP7RKdR0/0.jpg)](https://youtu.be/jVFOtdTlJAQ)
+### Tutorial Link: https://youtu.be/jVFOtdTlJAQ
 
