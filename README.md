@@ -13,7 +13,7 @@
   </ol>
   
   <h2>For Typeracer:</h2>
-  <p>They've fixed it, I'll update this later to make sure it'd work in typeracer too:)</p>
+  <p>They've fixed it, But I'll update this cheat later to make sure it'd work in typeracer too:)</p>
   <ol>
     <li>Run the code.</li>
     <li>Select Typeracer.</li>
