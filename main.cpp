@@ -50,10 +50,10 @@ int main() {
 
                 try {
                     wpm_float = stof(wpm);
-                    if (wpm_float < 0) {
-                        wpm_float = abs(wpm_float);
+                    if (wpm_float < 1) {
+                        wpm_float = 1;
                     }else if(wpm_float > 650){
-                        wpm_float = abs(650);
+                        wpm_float = 650;
                     }
                     cout << "WPM: " << wpm_float << endl;
                     break;
