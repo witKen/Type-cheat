@@ -76,13 +76,10 @@ void runOrDiscardScritp(string texts, string cheatType, float wpm){
 
     float cps = (wpm * 5) / 60;
     
-    cout<<cps<<endl;
     if (cps < 25) {
         cps = 1000 / float(cps * 1.2);  
-        cout<<cps<<endl;
     } else {
         cps = 1000 / (cps * 2); 
-        cout<<cps<<endl; 
     }
 
     cps = round(cps);
