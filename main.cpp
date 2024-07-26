@@ -14,7 +14,7 @@ int main() {
     while(true){
         string choice;
         system("clear");
-        cout<<"0. Exit\n1. Typeracer Cheat\n2. Monkeytype Cheat\n3. Change Speed (Current Speed: "<<wpm_float<<")\n";
+        cout<<"0. Exit\n1. Typeracer Cheat\n2. Monkeytype Cheat\n3. Change Speed (Current WPM: "<<wpm_float<<")\n";
         cout<<"Your choice: ";
         getline(cin, choice);
         if(choice == "0"){

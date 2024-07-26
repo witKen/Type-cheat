@@ -61,23 +61,47 @@ string getUserInput(string cheatType){
 void runOrDiscardScritp(string texts, string cheatType, float wpm){
     string script, choice;
 
-    wpm = (60 * 1000) / (wpm * static_cast<float>(texts.length()));
-    wpm = round(wpm);
+    // int alphbt = 0, k = 0, space = 1;
+
+    // for(size_t i = 0; i < texts.length(); i++){
+    //     if(texts[i] != ' '){
+    //         alphbt++;
+    //         k++;
+    //     }else if(texts[i] == ' ' && k != 0){
+    //         space ++;
+    //     } 
+    // }
+
+    // float avg_word = float(alphbt/space);
+
+    float cps = (wpm * 5) / 60;
+    
+    cout<<cps<<endl;
+    if (cps < 25) {
+        cps = 1000 / float(cps * 1.2);  
+        cout<<cps<<endl;
+    } else {
+        cps = 1000 / (cps * 2); 
+        cout<<cps<<endl; 
+    }
+
+    cps = round(cps);
 
     script = "Set wshShell = WScript.CreateObject(\"WScript.Shell\")\n";
 
-    if(wpm < 5){
-        wpm = 5;
+    if(cps < 5){
+        cps = 5;
     }
 
-    int con_wpm = int(wpm);
+    int con_cps = int(cps);
+
 
     int randCounter = (rand() % (50 - 1)) + 50;
     int count = 0;
 
     for (size_t i = 0; i < texts.length(); i++) {
         if (cheatType == "1"){   
-            int random = (rand() % (con_wpm + 100 - con_wpm + 1)) + con_wpm;
+            int random = (rand() % (con_cps + 100 - con_cps + 1)) + con_cps;
             if (randCounter == count){
                 size_t tmp = i;
                 if(i > 2){
@@ -98,7 +122,7 @@ void runOrDiscardScritp(string texts, string cheatType, float wpm){
             }
         }else{
             script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
-            script = script + "WScript.Sleep " + to_string(con_wpm) + "\n";
+            script = script + "WScript.Sleep " + to_string(con_cps) + "\n";
         }
     }
 
