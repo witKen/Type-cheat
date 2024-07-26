@@ -113,7 +113,7 @@ void runOrDiscardScritp(string texts, string cheatType, float wpm){
                 script = script + "WScript.Sleep " + to_string(random) + "\n";
                 script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
                 script = script + "WScript.Sleep " + to_string(random) + "\n";
-                randCounter = (rand() % (200 - 1)) + 200;
+                randCounter = (rand() % (200 - 0 + 1)) + 200;
                 count = 0;
             }else{
                 script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
