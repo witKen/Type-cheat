@@ -58,10 +58,14 @@ int main() {
                     cout << "WPM: " << wpm_float << endl;
                     break;
                 } catch (const invalid_argument&) {
-                    cout << "Invalid input. Please enter a valid number: ";
+                    cout << "Invalid input. Please enter a valid number: ";    
+                    cout << "Press any key to continue...";
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     continue;
                 } catch (const out_of_range&) {
                     cout << "Input value is out of range. Please enter a valid number: ";
+                    cout << "Press any key to continue...";
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     continue;
                 }
                             
