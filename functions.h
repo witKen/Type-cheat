@@ -92,7 +92,6 @@ void runOrDiscardScritp(string texts, string cheatType, float wpm){
 
     int con_cps = int(cps);
 
-
     int randCounter = (rand() % (50 - 1)) + 50;
     int count = 0;
 
@@ -110,7 +109,7 @@ void runOrDiscardScritp(string texts, string cheatType, float wpm){
                 script = script + "WScript.Sleep " + to_string(random) + "\n";
                 script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
                 script = script + "WScript.Sleep " + to_string(random) + "\n";
-                randCounter = (rand() % (200 - 0 + 1)) + 200;
+                randCounter = (rand() % (100 - 0 + 1)) + 100;
                 count = 0;
             }else{
                 script = script + "wshShell.SendKeys \"{" + texts[i] + "}\"\n";
