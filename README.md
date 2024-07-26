@@ -13,7 +13,7 @@
   </ol>
   
   <h2>For Typeracer:</h2>
-  <p>Recommend changing wpm to 600</p>
+  <p>Recommend changing wpm to 650</p>
   <ol>
     <li>Run the code.</li>
     <li>Select Typeracer.</li>
